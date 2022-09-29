@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.separate{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+.btn{
+    width:80px;
+    height: 80px;
+    border-radius: 60px;
+    border: 3px solid aqua;
+    background-color: rgb(169, 255, 255);
+}
+.btn:hover{
+    background-color: rgb(127, 189, 189);
+    border: 3px solid aqua;
+}

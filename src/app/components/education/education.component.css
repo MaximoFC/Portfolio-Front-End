@@ -1,0 +1,26 @@
+.modalimg{
+    width: 100%;
+}
+.btn{
+    border: 3px solid aqua;
+    background-color: rgb(169, 255, 255);
+    color:black;
+}
+.btn:hover{
+    background-color: rgb(127, 189, 189);
+    border: 3px solid aqua;
+}
+.margin{
+    padding-left: 50px;
+}
+.marginI{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.modal-content{
+    background-image:linear-gradient(to left, rgb(192, 147, 166), rgb(0, 94, 117));
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
