@@ -1,0 +1,22 @@
+.margin{
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.btn{
+    border: 3px solid aqua;
+    background-color: rgb(169, 255, 255);
+    color:black;
+}
+.btn:hover{
+    background-color: rgb(127, 189, 189);
+    border: 3px solid aqua;
+}
+.container{
+    padding-top: 30px;
+}
+.margin2{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}

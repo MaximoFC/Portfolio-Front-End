@@ -1,0 +1,20 @@
+<h1 style="margin-left: 50px;"><span>Habilidades:</span></h1>
+<div class="container">
+    <div *ngFor="let skills of skill">
+        <circle-progress
+            [percent]="(skills.porcentaje)"
+            [radius]="90"
+            [title]="(skills.nombre)"
+            [titleFontSize]="'15'"
+            [outerStrokeWidth]="10"
+            [innerStrokeWidth]="8"
+            [outerStrokeColor]="'#00FFFF'"
+            [innerStrokeColor]="'#A9FFFF'"
+            [titleColor]="'#000000'"
+            [subtitleColor]="'#FFFFFF'"
+            [unitsColor]="'#FFFFFF'"
+            [animation]="true"
+            [animationDuration]="800"
+></circle-progress>
+    </div>
+</div>

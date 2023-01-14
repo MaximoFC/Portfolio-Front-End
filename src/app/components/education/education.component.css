@@ -1,8 +1,12 @@
 .modalimg{
     width: 100%;
 }
+.modal1img{
+    width: 90%;
+}
 .btn{
     border: 3px solid aqua;
+    border-radius: 150px;
     background-color: rgb(169, 255, 255);
     color:black;
 }
@@ -17,6 +21,8 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .modal-content{
     background-image:linear-gradient(to left, rgb(192, 147, 166), rgb(0, 94, 117));
@@ -24,3 +30,8 @@
     display: flex;
     justify-content: center;
 }
+.modal-body{
+    display: flex;
+    justify-content: flex-start;
+}
+

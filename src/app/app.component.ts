@@ -9,6 +9,9 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 export class AppComponent {
   title = 'portfolioEnAngular';
 
+  constructor(){
+  }
+
   
   
 }

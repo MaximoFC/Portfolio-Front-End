@@ -1,9 +1,18 @@
 body {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, rgb(192, 147, 166), rgb(0, 94, 117));
+    background-image: linear-gradient(to left, rgb(192, 147, 166), rgb(0, 113, 141));
 }
 h1 span{
+    color: aqua;
+}
+h2 span{
+    color:aqua;
+}
+h3 span{
+    color:aqua;
+}
+h4 span{
     color:aqua;
 }
 *{

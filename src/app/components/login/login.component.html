@@ -1,0 +1,17 @@
+<form class="margin">
+    <h1>Iniciar <span>sesión</span></h1>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"><h5>Correo electrónico</h5></label>
+        <input type="email" class="form-control" (keyup)="funcion($event)" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"><h5>Contraseña</h5></label>
+        <input type="password" class="form-control" (keyup)="funcion($event)" id="exampleInputPassword1">
+    </div>
+    <div >
+        <button type="button" (click)="grabar_localstorage()" class="btn btn-primary">Enviar</button>
+    </div>
+    <div class="margin2">
+        <h6>Inicio de sesión para visualizar el contenido del portfolio</h6>
+    </div>
+</form>
