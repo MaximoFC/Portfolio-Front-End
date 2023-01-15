@@ -7,7 +7,7 @@ import { MyProjects } from '../model/my-projects';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL="https://backendportfolio-qype.onrender.com/experiencia"
+  expURL="https://backendportfolio-7c1v.onrender.com/experiencia"
 
   constructor(private httpClient: HttpClient) { }
 

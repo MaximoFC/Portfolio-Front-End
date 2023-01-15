@@ -7,7 +7,7 @@ import { Skills } from '../model/skills';
   providedIn: 'root'
 })
 export class SkillsService {
-hysURL = "https://backendportfolio-qype.onrender.com/hys"
+hysURL = "https://backendportfolio-7c1v.onrender.com/hys"
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Skills[]>{
