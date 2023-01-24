@@ -7,26 +7,26 @@ import { Skills } from '../model/skills';
   providedIn: 'root'
 })
 export class SkillsService {
-private URL = 'https://backendportfolio-7c1v.onrender.com/experiencia';
+private URL = 'https://backendportfolio-7c1v.onrender.com/hys';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Skills[]>{
-    return this.httpClient.get<Skills[]>(this.URL + "/lista");
+    return this.httpClient.get<Skills[]>(`${this.URL}/lista`);
   } 
 
   public details(id: number): Observable<Skills>{
-    return this.httpClient.get<Skills>(this.URL + "/detail/${id}");
+    return this.httpClient.get<Skills>(`${this.URL}/detail/${id}`);
   }
 
   public save(skill: Skills): Observable<any>{
-    return this.httpClient.post<any>(this.URL + "/create", skill);
+    return this.httpClient.post<any>(`${this.URL}/create`, skill);
   }
 
   public update(id:number, skill: Skills): Observable<any>{
-    return this.httpClient.put<any>(this.URL + "/update/${id}", skill);
+    return this.httpClient.put<any>(`${this.URL}/update/${id}`, skill);
   }
 
   public delete(id:number): Observable<any>{
-    return this.httpClient.delete(this.URL + "/delete/${id}");
+    return this.httpClient.delete(`${this.URL}/delete/${id}`);
   }
 }
